@@ -1,0 +1,64 @@
+Name:		Ankita Patra
+B-Number:	B01101280
+Email:		apatra@binghamton.edu
+
+Description: 
+-----------------
+* This project provides The racket Scheme implementation step by step and it involves functions in Scheme using the racket scheme impementation avaliable on remote.cs and all functions are specified in the file prj2-sol.scm.
+
+* The project aims to enhance your skills in functional programming and recursion in Scheme, while also demonstrating short-circuit evaluation for implementing backtracking.
+
+File:
+-----------
+
+* prj2-sol.scm: The main file containing the implementation of the functions.
+
+* README: This file, containing information about the project.
+
+* .zipignore : A file containing ignore patterns for the provided do-zip.sh script. 
+
+* .gitignore : A file containing ignore patterns for git. 
+
+* LOG : we can see the all the test cases here . it illustrating the operation of the project. 
+
+Implementation :
+----------------
+* In this project i impemented functions based on the provided specifications. 
+
+* The functions are implemented using a recursive approach and include the following :
+            * count-pairs
+            * tetrate
+            * expt-list
+            * list-access
+            * hailstones
+            * max-hailstones
+            * int-list-json
+            * re-match
+            * EXIT (press ^D)
+
+Execution:
+------------
+
+The submitted prj2-sol.scm must run all provided tests when executed from the unpacked prj2-sol/directory using the command racket prj2-sol.scm. 
+
+We can execute this in 2 ways :
+
+1) 	$ ./prj2-sol.scm
+
+Alternately, use
+
+	$ racket ./prj2-sol.scm
+
+#the lang racket line must not be commented out. 
+
+2) load the file into the REPL by simply typing (load "prj2-sol.scm").
+
+Testing :
+---------
+    In project2  log file is there where test cases are  mentioned. So below are the steps we need to follow these steps :         
+                    $ racket
+                    Welcome to Racket v8.12 [cs].
+                    ;; load file from current working directory.
+                    ;; note that "#lang racket" must be commented out to use in this REPL
+                    > (load "prj2-sol.scm")
+                    > "" here we need to do test ""
